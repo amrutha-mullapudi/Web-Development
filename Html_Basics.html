@@ -14,17 +14,23 @@ Well, The HTML document type declaration, also known as DOCTYPE, is the first li
 <!--- What is a head? What does it contain?
 A HEAD TAG IS A CONTAINER OF META DATA (WHICH MEANS DATA ABOUT DATA)
 1. META TAG
--> everything inside head element is not shown in the webpage
-we can add author details, description in the metadata tag.
--> All of the above information would be pickedup by a search 
-engine or web search which wants to learn more about our web page.
+-> everything inside head element is not shown in the webpage we can add author details, description in the metadata tag.
+-> All of the above information would be pickedup by a search engine or web search which wants to learn more about our web page.
 -> this tag can have name and its respective content like name of the author of the webpage and the description of what this webpage contains
 ----------------------------------------------------------------------------------------------------
 2. TITLE 
 ->The <title> tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
 -> It can also have an image beside the title bar with name, which we call as a favicon (fav-icon).
-    https://github.com/amrutha-mullapudi/Web-Development/issues/1
-    -->
+->  To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, 
+    and save your favicon image in this folder.
+3. BREAKING THE LINK TAG  -   <link rel="" href="" type="">
+-> link element has rel attribute which is relate (means how does this attribute relate to the head of the web-page)
+        <link rel="icon"> (means its of the type icon)
+        <href = "example.png"> </href>  (hyper-text reference, where you give path of the image)
+        <type = "image/x-icon"> </type>  (the type of image we are passing here)
+-> Similarly you can link a css file with styling and add it into the link tag with rel="stylesheet" ; type="text/css"
+----------------------------------------------------------------------------------------------------
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Amrutha">
