@@ -1,0 +1,92 @@
+<!-- This html file consists on what buttons are and how to style them using CSS (Cascading Style Sheet)
+A button is written in html using <button></button> attribute.
+We can create multiple buttons and add various attributes to them in HTML.
+-->
+
+<body>
+<style>
+    .subscribe_button{
+        background-color: rgb(200, 0, 0);
+        color: honeydew;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: medium;
+        margin-right: 8px;
+    }
+
+    .join_button{
+        background-color: white;
+        color: rgb(32, 144, 189);
+        height: 36px;
+        width: 70px;
+        border-radius: 3px;
+        cursor: pointer;
+        border-color: cornflowerblue;
+        font-size: medium;
+        margin-right: 8px;
+    }
+
+    .tweet_button{
+        background-color: rgb(0, 136, 255);
+        border: none;
+        height: 36px;
+        width: 70px;
+        border-radius: 18px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+</style>
+<button class="subscribe_button">
+    SUBSCRIBE
+</button>
+<button class="join_button">
+    JOIN
+</button>
+<button class="tweet_button">
+    Tweet
+</button>
+</body>
+
+
+<!--
+
+1.In the above html code, we have buttons defined called SUBSCRIBE, JOIN and Tweet.Each of these buttons have attributes called "class", which acts as a unique identifier to style them using CSS.
+
+2.We can link a button in css using .(followed by class value). For example:
+  <button class="subscribe_button"> => the value of attribute class is "subscribe_button", so we need to add this in this manner in the <style> tag to style 
+  all the buttons that have "subscribe_button" as their unique class identifier.
+    .subscribe_button{
+       ///style here///
+    }
+NOTE : We can write css code to modify the appearance of other elements.Written inside the <style> tag
+
+3. button{ } is a css-selector, this tells which elements of html are going to be styled.
+button{
+    background-color: red;
+}
+background-color here is called css property
+red is called css value
+
+4. Attributes : 
+-> if you wish to remove a property you can set it to none, here I wanted to remove the border so I set {border: none}   (CHECK LINE 34)
+-> height: 40px; px = pixels
+-> color => if rgb (255,255,255) then white ; rgb(0,0,0) then black
+-> round your button borders => border-radius
+-> in order to create a hand-pointer we change cursor attribute to pointer
+-> In order to target a specific button we add a new attribute to button
+called class => <button class="">
+    this can be used in css by .(give button class value here)
+    ie .subscribe_button{
+        ....
+        ....
+    }
+-> In order to add space between 2 things we use "margin"
+-> In order to set font as bold we use font-weight 
+
+-->
