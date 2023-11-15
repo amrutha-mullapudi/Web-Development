@@ -1,0 +1,35 @@
+<!---
+
+1. Viewport
+name="viewport": This attribute is used by browsers to determine how to control the page's dimensions and scaling.
+-> content="width=device-width, initial-scale=1.0": This value instructs the page to match the screen's width in device-independent 
+pixels and set the initial scale to 1, maintaining the correct layout on both landscape and portrait configurations.
+
+2. Description
+name="description": This attribute serves the purpose of providing a clear, concise description of the webpage content. 
+It’s especially important since search engines display the "description" in search results mainly when the searched-for phrase is contained in the description.
+-> content="your description goes here": This value holds the actual description of the page. 
+It needs to be relevant to the page content and at least 5 words long to give a reasonable explanation to the page viewers and search engines.
+
+3. Content Format
+http-equiv="Content-Type": http-equiv can be used to simulate an HTTP response header. 'Content-type' here denotes what type of content the HTML document is.
+-> content="text/html; charset=utf-8": This attribute specifies the character encoding for the document. 
+'utf-8' is a universal character set that includes all possible characters and is backward-compatible with ASCII.
+
+4. Title
+property: og:title: This attribute is part of Open Graph (og) protocol, used to integrate any web page into the social graph. 
+'og:title' defines the title of the webpage that will appear in the social media platform when the page is shared.
+-> content="Meta Tags Lab": This is the actual title of the webpage, "Meta Tags Lab" in this case, which will be used when the 
+contents of the webpage are shared on a social media platform.
+
+-->
+
+<html>
+    <head>
+        <title>Meta Tags Lab</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="description" content="welcome to meta tags lab here">
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+       <meta property="og:title" content="Meta Tags Lab">
+    </head>
+</html>
