@@ -1,0 +1,11 @@
+<!--
+The only difference between the two elements is semantics. Both elements, by default, have the CSS rule display: 
+block (hence block-level) applied to them; nothing more (except somewhat extra margin in some instances). 
+However, as aforementioned, they both different greatly in terms of semantics.
+
+The <p> element, as its name somewhat implies, is for paragraphs. Thus, <p> should be used when you want to create blocks of paragraph text.
+
+The <div> element, however, has little to no meaning semantically and therefore can be used as a generic block-level element — most commonly, 
+people use it within layouts because it is meaningless semantically and can be used for generally anything you might require a block-level element for.
+
+-->
