@@ -1,0 +1,24 @@
+<!--
+Html identifie the elements that are being added into the web-page into Block elements or Inline elements
+BLOCK ELEMENTS :
+-> they take up the complete line (stretch of the webpage from left to right)
+-> also adds a new space the moment you create a new block element
+-> Example : adding a <p> element or <div> element creates a new block/space for itself. These block elements can internally have inline elements.
+
+INLINE ELEMENTS:
+-> It takes up only the width of the page to which it is assigned. They can be added within the block elements.
+If we wish to highlight specific data within a parapgraph or h1 tag for example we can add these
+like <span> element, <em> - emphasis element, <strong> element
+-->
+
+<p>
+Giving you a <em>list of all the pages</em> I am adding for the eccommerce website...
+</p>
+
+<!--
+Here <em> is an emphasis element which tells the website to emphasise or consider it as important. So web turns the element into italics to stand out from
+the rest of the paragraph. Similarly we have multiple elements like :
+<span> element - data can be formatted
+<em> - emphasis element - makes it italic
+<strong> element - makes it bold and increases font size.
+-->
